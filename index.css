@@ -41,22 +41,21 @@ body, html {
 }
 .features{
     background-color: #F6838A  !important;
-    height: 85px;
-    width: 329px;
+    height: 70px !important;
+    width: 329px !important;
     border-radius: 26px !important;
-    font-family: "poppins regular", sans-serif;
+    font-family: "poppins regular", sans-serif !important;
     font-size: 30px !important;
     color: black !important;
-    margin-top:10%;
+    margin-top:10% !important;
     transition: all 300ms ease-in-out !important;
-
 }
 
 .invite{
     background-color: #BC2558  !important;
     margin-top:10%;
     margin-left: 20%;
-    height: 85px;
+    height: 70px;
     width: 329px;
     border-radius: 26px !important;
     font-family: "poppins regular", sans-serif;
