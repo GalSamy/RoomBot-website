@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    height: 5485px;
+}
+
+body, html {
+     margin: 0;
+     top:0;
+ }
+
+.background-wrapper{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+
+}
+
+.top-features {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.one{
+    position: relative;
+    z-index: 2;
+    margin-left: 10rem;
+  }
+
+.one-back{
+    margin-top: -3rem;
+    position: absolute;
+    font-size: 200px;
+    font-family: "Poppins", sans-serif ;
+    opacity: 20%;
+    width: 100%;
+    font-style: italic;
+}
+.one-front{
+    margin-left: 5rem;
+    font-size: 100px;
+    font-family: "Poppins", sans-serif ;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.one-p {
+    margin-top: 5rem;
+    font-size: 35px;
+    color: black;
+
+    font-family: "Poppins", sans-serif ;
+
+}
+
+.two{
+    position: relative;
+    z-index: 2;
+    margin-top: 40rem;
+    margin-left: 10rem;
+}
+
+.bottom-features {
+    position: relative;
+    width: 100%;
+    margin-top: 20rem;
+    z-index: 2;
+}
+
+.five{
+    position: relative;
+    z-index: 2;
+    margin-top: 25rem;
+    margin-left: 10rem;
+}
