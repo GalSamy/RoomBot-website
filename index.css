@@ -138,6 +138,6 @@ body, html {
 @media screen and (max-width: 768px) {
     .main-text{
         text-align: center;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 }
