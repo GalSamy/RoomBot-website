@@ -11,18 +11,20 @@
 <body>
 <div class="wrapper">
     <div id="fullPage">
-                     <div class="section s1">
+
+
 
                             <div class="background-wrapper">
-                                <img src="imgs/background.png" width="100%">
+                                <img src="imgs/Mask%20Group%201.png" width="100%">
                             </div>
-                            <div class="top-features">
-                                <img src="imgs/top-features.svg" width="100%" alt="top-features">
-                            </div>
-
-                        <div class="one">
+        <!--
+                         <div class="top-features">
+                             <img src="imgs/top-features.svg" width="100%" alt="top-features">
+                         </div>
+           -->
+                        <div class="one section s1">
                             <h1 class="one-back">1#</h1>
-                            <h1 class="one-front">creat rooms</h1>
+                            <h1 class="one-front">Create Rooms</h1>
                             <p class="one-p">
                                 with RoomBot, your server's user base can easily <br>
                                 create public and private rooms. <br>
@@ -31,11 +33,11 @@
                                 more intimacy the room creation process is easy and fast.
                             </p>
                         </div>
-                   </div>
-                    <div class="section s2">
-                            <div class="two">
+
+
+                            <div class="two section s2">
                                 <h1 class="one-back">2#</h1>
-                                <h1 class="one-front">set limit to room members</h1>
+                                <h1 class="one-front">Set Limit To Room Members</h1>
                                 <p class="one-p">
                                     once you created a room, public or private, to keep the intimacy and <br>
                                     the connection between the group members, <br>
@@ -44,11 +46,11 @@
                                     you can type "na" at the setting process of the room <br>
                                 </p>
                             </div>
-                     </div>
-                    <div class="section s3">
-                        <div class="two">
+
+
+                        <div class="two section s3">
                             <h1 class="one-back">3#</h1>
-                            <h1 class="one-front">change the room's role color</h1>
+                            <h1 class="one-front">Change The Room's Role Color</h1>
                             <p class="one-p">
                                 to give a feeling of personality to the room, <br>
                                 it's possible to change the room's role color to a custom one. <br>
@@ -56,11 +58,10 @@
                                 can change the room.
                             </p>
                         </div>
-                    </div>
-        <div class="section s4">
-            <div class="two">
+
+            <div class="two section s4">
                     <h1 class="one-back">4#</h1>
-                    <h1 class="one-front">leaving / deleting a room</h1>
+                    <h1 class="one-front">Leaving / Deleting A Room</h1>
                     <p class="one-p">
                         all of the room members are able to leave the room as they please. <br>
                         only the room's owner can delete the room. <br>
@@ -70,32 +71,43 @@
                         the room will delete automatically.
                     </p>
                 </div>
-        </div>
-        <div class="section s4">
-                <div class="five">
+
+
+                <div class="five section s5">
                         <h1 class="one-back">5#</h1>
-                        <h1 class="one-front">rooms moderation</h1>
+                        <h1 class="one-front">Rooms Moderation</h1>
                         <p class="one-p">
                             to keep all of the rooms safe and friendly place, <br>
                             all of the users who have the admin role in the <br>
                             server can see and monitor all of the rooms, and delete any rooms <br>
                             they want even if they are not the room's owner!
                         </p>
-                    </div>
 
+                </div>
+        <!--
             <div class="bottom-features">
                 <img src="imgs/bottom-features.png" width="100%" alt="bottom-features">
             </div>
-        </div>
+        -->
     </div>
 </div>
 </body>
-    <!--
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
 <script>
 
-    new fullpage('#fullPage')
+    new fullpage('#fullPage', {
+        autoScrolling: true,
+        navigation : true,
+        navigationTooltips: [
+            'Create Rooms',
+            'Set Limit To Room Members',
+            'Change The Room\'s Role Color',
+            'Leaving / Deleting A Room',
+            'Rooms Moderation'
+        ]
+    })
 
 </script>
---->
+
 </html>
