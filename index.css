@@ -82,7 +82,7 @@ body, html {
     display: inline-flex;
 
 }
-@media screen and (max-height: 812px) {
+@media screen and (max-width: 662px) {
     .invite{
         background-color: #BC2558  !important;
         margin-top: 10%;
