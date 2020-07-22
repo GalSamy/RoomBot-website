@@ -8,6 +8,7 @@
 .main-text{
     text-align: center;
     height: 0;
+    margin-top: 0;
 }
 
 .header{
@@ -41,8 +42,8 @@ body, html {
 }
 .features{
     background-color: #F6838A  !important;
-    height: 70px !important;
-    width: 329px !important;
+    height: 70px;
+    width: 329px;
     border-radius: 26px !important;
     font-family: "poppins regular", sans-serif !important;
     font-size: 30px !important;
@@ -99,8 +100,8 @@ body, html {
 
     .features{
         background-color: #F6838A  !important;
-        height: 50px;
-        width: 150px;
+        height: 50px !important;
+        width: 150px !important;
         border-radius: 26px !important;
         font-family: "poppins regular", sans-serif;
         font-size: 20px !important;
