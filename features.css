@@ -300,18 +300,3 @@ body, html {
     }
 }
 
-@media screen and (max-width: 2000px) and (min-width: 1441px){
-    .background-wrapper-PHONE{
-        position: absolute;
-        width: 110%;
-        overflow: hidden;
-        z-index: 0;
-        user-select: none;
-        height: 125%;
-        display: flex;
-    }
-    .background-wrapper{
-        display: none;
-    }
-}
-
