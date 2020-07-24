@@ -234,7 +234,7 @@ body, html {
     }
 }
 
-@media screen and (max-width: 1440px) and (min-width: 1025px){
+@media screen and (max-width: 1639px) and (min-width: 1025px){
     .one{
         position: relative;
         margin-left: 2rem;
